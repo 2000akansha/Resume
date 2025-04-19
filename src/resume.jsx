@@ -38,7 +38,7 @@ const Resume = () => {
                     <li><strong>Database:</strong> MongoDB, Firebase (Basic)</li>
                     <li><strong>Version Control:</strong> Git, GitHub</li>
                     <li><strong>Tools & Testing:</strong> Postman, Manual Testing</li>
-                    <li><strong>Cloud:</strong> AWS (Basic), Firebase</li>
+                    <li><strong>Cloud:</strong> AWS (Familiar), Firebase(Familiar)</li>
                     <li><strong>Other:</strong> REST APIs, JWT Auth, Data Modeling</li>
                 </ul>
             </section>
@@ -49,7 +49,7 @@ const Resume = () => {
                 <h4>Executive – Full Stack Developer</h4>
                 <p><em>Innobles Smart Technologies Pvt Ltd, New Delhi | Sep 2024 – Present</em></p>
                 <ul>
-                    <li>Led backend architecture for large-scale government platforms (DAMS, BIDA, Property Tax).</li>
+                    <li>Led backend architecture for large-scale government platforms.</li>
                     <li>Built scalable RESTful APIs and modular codebases using Node.js and Express.</li>
                     <li>Optimized MongoDB queries and schema design for large datasets.</li>
                     <li>Worked on digital finance modules, fund disbursement logic, and audit trails.</li>
@@ -104,7 +104,7 @@ const Resume = () => {
                 <ul>
                     <li><strong>Version Control:</strong> Git, GitHub</li>
                     <li><strong>API Testing:</strong> Postman</li>
-                    <li><strong>Cloud/Hosting:</strong> Firebase (Basic), AWS (Familiar)</li>
+                    <li><strong>Cloud/Hosting:</strong> Firebase (Familiar), AWS (Familiar)</li>
                     <li><strong>Project Management:</strong> JIRA (Familiar)</li>
                 </ul>
             </section>
