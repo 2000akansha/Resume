@@ -10,107 +10,120 @@ const Resume = () => {
         <div className="resume-wrapper">
             {/* Print Button */}
             <div className="print-btn-container">
-                <button onClick={handlePrint} className="print-btn">🖨️ Print Resume</button>
+                <button onClick={handlePrint} className="print-btn">Print Resume</button>
             </div>
 
-            <div className="resume-header">
-                <h1>💼 Akansha Bhagat</h1>
+            {/* Header */}
+            <header className="resume-header">
+                <h1>Akansha Bhagat</h1>
                 <h2>Node.js Backend Developer</h2>
                 <p>
-                    📧 <a href="mailto:Bhagatakansha154@gmail.com">Bhagatakansha154@gmail.com</a> | 📞 +91-7838644826<br />
-                    🌐 <a href="https://2000akansha.github.io/portfolio/" target="_blank" rel="noreferrer">Portfolio Website</a>
+                    <a href="mailto:Bhagatakansha154@gmail.com">Bhagatakansha154@gmail.com</a> | +91-7838644826<br />
+                    <a href="https://2000akansha.github.io/portfolio/" target="_blank" rel="noreferrer">Portfolio Website</a>
                 </p>
-            </div>
+            </header>
 
+            {/* Summary */}
             <section>
-                <h3>🎯 Professional Summary</h3>
+                <h3>Professional Summary</h3>
                 <p>
-                    Results-driven Backend Developer with 2+ years of experience designing and building secure, scalable backend systems using Node.js, Express.js, and MongoDB. Proven success in government and enterprise-grade API development, database architecture, and system optimization. Passionate about backend engineering with the versatility to contribute across the full stack.
+                    Backend Developer with 2+ years of experience in designing and building secure, scalable systems using Node.js, Express.js, and MongoDB. Experienced in developing government and enterprise-level APIs, database optimization, and backend architecture. Adept at delivering high-performance systems with a focus on maintainability and scalability.
                 </p>
             </section>
 
+            {/* Technical Skills */}
             <section>
-                <h3>🧰 Technical Skills</h3>
+                <h3>Technical Skills</h3>
                 <ul>
-                    <li><strong>Languages:</strong> JavaScript (ES6+), C++</li>
-                    <li><strong>Backend:</strong> Node.js, Express.js</li>
-                    <li><strong>Frontend:</strong> React.js, HTML, CSS, JavaScript</li>
-                    <li><strong>Database:</strong> MongoDB, Firebase (Basic)</li>
-                    <li><strong>Version Control:</strong> Git, GitHub</li>
-                    <li><strong>Tools & Testing:</strong> Postman, Manual Testing</li>
-                    <li><strong>Cloud:</strong> AWS (Familiar), Firebase(Familiar)</li>
-                    <li><strong>Other:</strong> REST APIs, JWT Auth, Data Modeling</li>
+                    <li>Languages: JavaScript (ES6+), C++</li>
+                    <li>Backend: Node.js, Express.js</li>
+                    <li>Frontend: React.js, HTML, CSS, JavaScript</li>
+                    <li>Database: MongoDB, Firebase (Basic)</li>
+                    <li>Version Control: Git, GitHub</li>
+                    <li>Testing & Tools: Postman, Manual Testing</li>
+                    <li>Cloud: AWS (Familiar), Firebase (Familiar)</li>
+                    <li>Other: REST APIs, JWT Auth, Data Modeling</li>
                 </ul>
             </section>
 
+            {/* Experience */}
             <section>
-                <h3>🏢 Professional Experience</h3>
+                <h3>Professional Experience</h3>
 
-                <h4>Executive – Full Stack Developer</h4>
-                <p><em>Innobles Smart Technologies Pvt Ltd, New Delhi | Sep 2024 – Present</em></p>
-                <ul>
-                    <li>Led backend architecture for large-scale government platforms.</li>
-                    <li>Built scalable RESTful APIs and modular codebases using Node.js and Express.</li>
-                    <li>Optimized MongoDB queries and schema design for large datasets.</li>
-                    <li>Worked on digital finance modules, fund disbursement logic, and audit trails.</li>
-                </ul>
+                <div>
+                    <h4>Executive – Full Stack Developer</h4>
+                    <p><em>Innobles Smart Technologies Pvt Ltd, New Delhi | Sep 2024 – Present</em></p>
+                    <ul>
+                        <li>Led backend architecture for large-scale government platforms.</li>
+                        <li>Developed RESTful APIs and modular codebases with Node.js and Express.js.</li>
+                        <li>Optimized MongoDB schema and queries for high-performance data handling.</li>
+                        <li>Built finance-related modules including fund disbursement and audit tracking.</li>
+                    </ul>
+                </div>
 
-                <h4>Associate Software Development Engineer</h4>
-                <p><em>Axia Health Assist Technologies Pvt Ltd, New Delhi | May 2022 – Sep 2023</em></p>
+                <div>
+                    <h4>Associate Software Development Engineer</h4>
+                    <p><em>Axia Health Assist Technologies Pvt Ltd, New Delhi | May 2022 – Sep 2023</em></p>
+                    <ul>
+                        <li>Developed backend features for healthcare appointment and record systems.</li>
+                        <li>Integrated secure authentication and RBAC systems.</li>
+                        <li>Worked with QA and frontend teams for debugging and product improvements.</li>
+                    </ul>
+                </div>
+            </section>
+
+            {/* Education */}
+            <section>
+                <h3>Education</h3>
                 <ul>
-                    <li>Developed backend features for healthcare products including appointment & record systems.</li>
-                    <li>Implemented secure authentication, RBAC, and optimized system workflows.</li>
-                    <li>Collaborated across teams for product development, debugging, and QA automation.</li>
+                    <li>MCA, Lloyd Institute of Engineering & Technology, Greater Noida (2023–2025)</li>
+                    <li>BCA, IGNOU, New Delhi (2022–2023)</li>
                 </ul>
             </section>
 
+            {/* Projects */}
             <section>
-                <h3>🎓 Education</h3>
+                <h3>Key Projects</h3>
                 <ul>
-                    <li><strong>MCA</strong>, Lloyd Institute of Engineering & Technology, Greater Noida (2023–2025)</li>
-                    <li><strong>BCA</strong>, IGNOU, New Delhi (2022–2023)</li>
+                    <li>Property Tax Management System (U.P.) – Automated tax calculations, integrated digital payments, and optimized backend data pipelines.</li>
+                    <li>BIDA Finance (Jhansi) – Built fund allocation APIs and secured document workflows. [<a href="https://finance.bida.co.in/login" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+                    <li>DLAMS (Himachal) – Developed digital land acquisition and compensation APIs. [<a href="https://lamsgaggal.com/login" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+                    <li>CHB Housing Board – Created backend modules for housing allocation and payment tracking. [<a href="https://innobles.com/chb_admin" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+                    <li>Health Assist – Engineered backend for real-time health analytics. [<a href="https://thehealthassist.co/run/" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+                    <li>Job Finder (Job Dekho) – MERN stack portal with RBAC and real-time updates.</li>
+                    <li>E-BG (HDFC Project) – Developed secure APIs for electronic bank guarantees.</li>
+                    <li>Employee Project Flow Management – Built manager dashboard to track tasks. [<a href="https://myte.innobles.com/login" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+                    <li>Loan Management Portal – Created system for processing government loan applications.</li>
                 </ul>
             </section>
 
+            {/* Certifications */}
             <section>
-                <h3>💡 Key Projects</h3>
-                <ul>
-                    <li><strong>Property Tax Management System (U.P.):</strong> Automated tax calculations, integrated digital payments, and optimized backend data pipelines.</li>
-                    <li><strong>BIDA Finance (Jhansi):</strong> Built fund allocation APIs, document verification, and secured workflows for a financial grant system.</li>
-                    <li><strong>DLAMS (Himachal):</strong> Developed APIs and backend services for digital land acquisition and compensation systems.</li>
-                    <li><strong>CHB Housing Board:</strong> Created backend modules for housing allocation, document tracking, and payment logging.</li>
-                    <li><strong>Health Assist:</strong> Engineered a backend for real-time health analytics and patient records.</li>
-                    <li><strong>Job Finder (Job Dekho):</strong> MERN stack job portal with RBAC, job search, and real-time updates.</li>
-                    <li><strong>E-BG (HDFC Project):</strong> Automated issuance of electronic bank guarantees with secure API communication.</li>
-                    <li><strong>Employee Project Flow Management:</strong> Built a dashboard for managers to track tasks, timelines, and performance metrics.</li>
-                    <li><strong>Loan Management Portal (Directorate of Industries):</strong> Developed backend for government loan application processing, audit logs, and beneficiary management.</li>
-                </ul>
-            </section>
-
-            <section>
-                <h3>📜 Certifications</h3>
+                <h3>Certifications</h3>
                 <ul>
                     <li>AWS Certified Security Specialty – AWS</li>
-                    <li>AWS Cloud Practitioner Essentials</li>
-                    <li>IAM Authentication & Authorization – AWS</li>
+                    <li>AWS Cloud Practitioner Essentials – <a href="https://explore.skillbuilder.aws/learn/courses/134/aws-cloud-practitioner-essentials/lessons" target="_blank" rel="noopener noreferrer">Link</a></li>
+                    <li>IAM Authentication & Authorization – AWS – <a href="https://explore.skillbuilder.aws/learn/courses/85/authentication-and-authorization-with-aws-identity-and-access-management" target="_blank" rel="noopener noreferrer">Link</a></li>
                     <li>Cyber Forensics – Great Learning</li>
-                    <li>Cyber Security Analyst – TCS</li>
+                    <li>Cyber Security Analyst – TCS – <a href="https://lnkd.in/gGjyNsY3" target="_blank" rel="noopener noreferrer">Link</a></li>
                     <li>Coding Blaze – Coding Ninjas</li>
                 </ul>
             </section>
 
+            {/* Tools & Technologies */}
             <section>
-                <h3>🛠️ Tools & Technologies</h3>
+                <h3>Tools & Technologies</h3>
                 <ul>
-                    <li><strong>Version Control:</strong> Git, GitHub</li>
-                    <li><strong>API Testing:</strong> Postman</li>
-                    <li><strong>Cloud/Hosting:</strong> Firebase (Familiar), AWS (Familiar)</li>
-                    <li><strong>Project Management:</strong> JIRA (Familiar)</li>
+                    <li>Version Control: Git, GitHub</li>
+                    <li>API Testing: Postman</li>
+                    <li>Cloud/Hosting: Firebase, AWS (Familiar)</li>
+                    <li>Project Management: JIRA (Familiar)</li>
                 </ul>
             </section>
 
+            {/* Footer */}
             <footer>
-                <p>📅 Last updated: April 2025</p>
+                <p>Last updated: April 2025</p>
             </footer>
         </div>
     );
