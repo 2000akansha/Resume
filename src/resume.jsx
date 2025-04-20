@@ -97,18 +97,31 @@ const Resume = () => {
                 </ul>
             </section>
 
-            {/* Certifications */}
-            <section>
-                <h3>Certifications</h3>
-                <ul>
-                    <li>AWS Certified Security Specialty – AWS</li>
-                    <li>AWS Cloud Practitioner Essentials – <a href="https://explore.skillbuilder.aws/learn/courses/134/aws-cloud-practitioner-essentials/lessons" target="_blank" rel="noopener noreferrer">Link</a></li>
-                    <li>IAM Authentication & Authorization – AWS – <a href="https://explore.skillbuilder.aws/learn/courses/85/authentication-and-authorization-with-aws-identity-and-access-management" target="_blank" rel="noopener noreferrer">Link</a></li>
-                    <li>Cyber Forensics – Great Learning</li>
-                    <li>Cyber Security Analyst – TCS – <a href="https://lnkd.in/gGjyNsY3" target="_blank" rel="noopener noreferrer">Link</a></li>
-                    <li>Coding Blaze – Coding Ninjas</li>
-                </ul>
-            </section>
+        {/* Certifications */}
+<section>
+    <h3>Certifications</h3>
+    <ul>
+        <li>
+            AWS Certified Security Specialty – AWS 
+            [<a href="https://www.linkedin.com/posts/akansha-bhagat-6972b9289_new-certificate-added-activity-7139209531787558912-nplJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX9Y5MB6cJzqQl7PnZlrLsHjFRKv0HJgV4" target="_blank" rel="noopener noreferrer">Link</a>]
+        </li>
+        <li>
+            AWS Cloud Practitioner Essentials 
+            [<a href="https://www.linkedin.com/posts/akansha-bhagat-6972b9289_cloud-practitioner-essentials-activity-7139656615854596096-6kZH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX9Y5MB6cJzqQl7PnZlrLsHjFRKv0HJgV4" target="_blank" rel="noopener noreferrer">Link</a>]
+        </li>
+        <li>
+            IAM Authentication & Authorization – AWS 
+            [<a href="https://www.linkedin.com/posts/akansha-bhagat-6972b9289_new-certification-added-activity-7138565228488830976-47sG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEX9Y5MB6cJzqQl7PnZlrLsHjFRKv0HJgV4" target="_blank" rel="noopener noreferrer">Link</a>]
+        </li>
+        <li>Cyber Forensics – Great Learning</li>
+        <li>
+            Cyber Security Analyst – TCS 
+            [<a href="https://lnkd.in/gGjyNsY3" target="_blank" rel="noopener noreferrer">Link</a>]
+        </li>
+        <li>Coding Blaze – Coding Ninjas</li>
+    </ul>
+</section>
+
 
             {/* Tools & Technologies */}
             <section>
