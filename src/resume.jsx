@@ -62,7 +62,7 @@ const Resume = () => {
                 </div>
 
                 <div>
-                    <h4>Associate Software Development Engineer</h4>
+                    <h4>Associate Software Developer</h4>
                     <p><em>Axia Health Assist Technologies Pvt Ltd, New Delhi | May 2022 – Sep 2023</em></p>
                     <ul>
                         <li>Developed backend features for healthcare appointment and record systems.</li>
@@ -88,11 +88,11 @@ const Resume = () => {
                     <li>Property Tax Management System (U.P.) – Automated tax calculations, integrated digital payments, and optimized backend data pipelines.</li>
                     <li>BIDA Finance (Jhansi) – Built fund allocation APIs and secured document workflows. [<a href="https://finance.bida.co.in/login" target="_blank" rel="noopener noreferrer">Link</a>]</li>
                     <li>DLAMS (Himachal) – Developed digital land acquisition and compensation APIs. [<a href="https://lamsgaggal.com/login" target="_blank" rel="noopener noreferrer">Link</a>]</li>
-                    <li>CHB Housing Board – Created backend modules for housing allocation and payment tracking. [<a href="https://innobles.com/chb_admin" target="_blank" rel="noopener noreferrer">Link</a>]</li>
-                    <li>Health Assist – Engineered backend for real-time health analytics. [<a href="https://thehealthassist.co/run/" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+                    {/* <li>CHB Housing Board – Created backend modules for housing allocation and payment tracking. [<a href="https://innobles.com/chb_admin" target="_blank" rel="noopener noreferrer">Link</a>]</li> */}
+                    <li>Health Assist – developed some backend modules for real-time health analytics. [<a href="https://thehealthassist.co/run/" target="_blank" rel="noopener noreferrer">Link</a>]</li>
                     <li>Job Finder (Job Dekho) – MERN stack portal with RBAC and real-time updates.</li>
-                    <li>E-BG (HDFC Project) – Developed secure APIs for electronic bank guarantees.</li>
-                    <li>Employee Project Flow Management – Built manager dashboard to track tasks. [<a href="https://myte.innobles.com/login" target="_blank" rel="noopener noreferrer">Link</a>]</li>
+                    {/* <li>E-BG (HDFC Project) – Developed secure APIs for electronic bank guarantees.</li> */}
+                    {/* <li>Employee Project Flow Management – Built manager dashboard to track tasks. [<a href="https://myte.innobles.com/login" target="_blank" rel="noopener noreferrer">Link</a>]</li> */}
                     <li>Loan Management Portal – Created system for processing government loan applications.</li>
                 </ul>
             </section>
